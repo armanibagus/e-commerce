@@ -1,5 +1,14 @@
+<script setup>
+import { computed } from "vue";
+import { useRoute } from "vue-router";
+
+const route        = useRoute();
+const getRouteName = computed(() => {
+  return route.name;
+});
+</script>
 <template>
-  <footer class="container-fluid py-5 bg-secondary">
+  <footer class="container-fluid py-5 bg-secondary"  v-if="getRouteName != 'signup' && getRouteName != 'login'">
     <div class="container-md">
       <div class="row">
         <div class="col-md-3 col-sm-3 col-12 mb-md-0 mb-4">

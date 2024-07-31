@@ -1,5 +1,5 @@
 <template>
-  <div class="col-2 col-sm-9 py-0">
+  <div class="col-2 col-sm-9 py-0 ms-3">
     <div class="d-none d-sm-block">
       <div
         class="header__searchbar input-group align-items-center border rounded-2"

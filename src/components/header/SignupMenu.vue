@@ -10,7 +10,7 @@
       to="/signup"
       class="btn btn-secondary"
     >
-      Sign Up
+      Sign up
     </router-link>
   </div>
 </template>

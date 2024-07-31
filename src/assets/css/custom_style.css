@@ -35,3 +35,13 @@
     display: block;
   }
 }
+
+.signup-form-container {
+  position: absolute;
+  top: 21%;
+}
+
+.login-form-container {
+  position: absolute;
+  top: 28%;
+}
